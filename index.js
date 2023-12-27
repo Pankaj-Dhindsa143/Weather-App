@@ -35,15 +35,15 @@ async function checkWeather(city){
 
         switch(weather_data.weather[0].description){
 
-            case "overcast clouds": weather_img.src = "img/cloud.png";
+            case "overcast clouds": weather_img.src = "cloud.png";
             break;
-            case "clear": weather_img.src = "img/clear.png";
+            case "clear": weather_img.src = "clear.png";
             break;
-            case "rain": weather_img.src = "img/rain.png";
+            case "rain": weather_img.src = "rain.png";
             break;
-            case "haze": weather_img.src = "img/mist.png";
+            case "haze": weather_img.src = "mist.png";
             break;
-            case "snow": weather_img.src = "img/snow.png";
+            case "snow": weather_img.src = "snow.png";
             break;
             console.log(weather_img);
         }

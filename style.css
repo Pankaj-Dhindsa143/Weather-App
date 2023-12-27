@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(img/istockphoto-1270443895-1024x1024.jpg);
+    background: url(istockphoto-1270443895-1024x1024.jpg);
     background-size: cover;
     padding: 30px;
 }
